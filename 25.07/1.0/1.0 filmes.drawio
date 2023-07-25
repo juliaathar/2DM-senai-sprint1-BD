@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2023-07-25T10:56:11.741Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="E0KDiaAo2bHCCLFhFTr7" version="21.6.5" type="device">
+  <diagram name="Página-1" id="wNqTY_eP_xyIM2HNYaMl">
+    <mxGraphModel dx="991" dy="931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wvtlD6AFZekAF5JWKEBa-4" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="580" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wvtlD6AFZekAF5JWKEBa-5" value="possui" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="605" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wvtlD6AFZekAF5JWKEBa-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvtlD6AFZekAF5JWKEBa-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvtlD6AFZekAF5JWKEBa-8" value="gênero" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="605" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wvtlD6AFZekAF5JWKEBa-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wvtlD6AFZekAF5JWKEBa-6" target="wvtlD6AFZekAF5JWKEBa-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="530" as="sourcePoint" />
+            <mxPoint x="430" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wvtlD6AFZekAF5JWKEBa-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wvtlD6AFZekAF5JWKEBa-4" target="wvtlD6AFZekAF5JWKEBa-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="630" as="sourcePoint" />
+            <mxPoint x="360" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wvtlD6AFZekAF5JWKEBa-12" value="filme" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="605" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wvtlD6AFZekAF5JWKEBa-13" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="590" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wvtlD6AFZekAF5JWKEBa-14" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="590" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wvtlD6AFZekAF5JWKEBa-22" value="&lt;div&gt;&lt;b&gt;Você deverá criar a modelagem para o catálogo de filmes, observando a seguinte situação:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- um filme possui apenas um único gênero.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- um gênero pode definir mais de um filme.&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="480" width="540" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

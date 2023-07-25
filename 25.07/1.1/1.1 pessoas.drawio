@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2023-07-25T11:29:55.942Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="6QP1kndoxESm15RALEKG" version="21.6.5" type="device">
+  <diagram name="Página-1" id="gngDiiDIyHVElSXllF_R">
+    <mxGraphModel dx="711" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OYm898SXfp_bKX_C9cU9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="OYm898SXfp_bKX_C9cU9-5" target="OYm898SXfp_bKX_C9cU9-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYm898SXfp_bKX_C9cU9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="OYm898SXfp_bKX_C9cU9-5" target="OYm898SXfp_bKX_C9cU9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYm898SXfp_bKX_C9cU9-5" value="possui" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367" y="635" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OYm898SXfp_bKX_C9cU9-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="157" y="645" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OYm898SXfp_bKX_C9cU9-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OYm898SXfp_bKX_C9cU9-6">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OYm898SXfp_bKX_C9cU9-3" value="pessoa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="OYm898SXfp_bKX_C9cU9-6">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OYm898SXfp_bKX_C9cU9-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="537" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OYm898SXfp_bKX_C9cU9-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OYm898SXfp_bKX_C9cU9-7">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OYm898SXfp_bKX_C9cU9-4" value="telefone" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="OYm898SXfp_bKX_C9cU9-7">
+          <mxGeometry x="25" y="15" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OYm898SXfp_bKX_C9cU9-8" value="CNH" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="182" y="545" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OYm898SXfp_bKX_C9cU9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="OYm898SXfp_bKX_C9cU9-2" target="OYm898SXfp_bKX_C9cU9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYm898SXfp_bKX_C9cU9-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="537" y="695" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OYm898SXfp_bKX_C9cU9-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OYm898SXfp_bKX_C9cU9-11">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OYm898SXfp_bKX_C9cU9-13" value="email" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="OYm898SXfp_bKX_C9cU9-11">
+          <mxGeometry x="35" y="15" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OYm898SXfp_bKX_C9cU9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="OYm898SXfp_bKX_C9cU9-2" target="OYm898SXfp_bKX_C9cU9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYm898SXfp_bKX_C9cU9-17" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="277" y="645" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OYm898SXfp_bKX_C9cU9-18" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="507" y="585" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OYm898SXfp_bKX_C9cU9-19" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="507" y="725" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OYm898SXfp_bKX_C9cU9-20" value="&lt;div&gt;&lt;b&gt;Construa a modelagem que represente pessoas e seus dados, observando que:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- uma pessoa pode ter vários telefones e vários emails, porém, pode possuir somente uma CNH.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;DQL&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- listar as pessoas em ordem alfabética reversa, mostrando seus telefones, seus e-mails e suas CNHs&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="390" width="600" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
