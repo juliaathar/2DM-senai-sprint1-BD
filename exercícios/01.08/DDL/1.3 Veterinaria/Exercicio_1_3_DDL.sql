@@ -24,3 +24,29 @@ CREATE TABLE Raca
    Descricao VARCHAR(100) NOT NULL
 )
 
+CREATE TABLE Veterinario
+(
+   IdVeterinario INT PRIMARY KEY IDENTITY,
+   IdClinica  INT FOREIGN KEY REFERENCES Clinica(IdClinica),
+   Nome VARCHAR (50),
+   CRMV VARCHAR (50)
+)
+
+CREATE TABLE Pet 
+(
+  IdPet INT PRIMARY KEY IDENTITY,
+  IdTipoPet INT FOREIGN KEY REFERENCES TipoPet (IdTipoPet),
+  IdRaca INT FOREIGN KEY REFERENCES Raca (IdRaca),
+  IdDono INT FOREIGN KEY REFERENCES Dono (IdDono),
+  Nome VARCHAR (50),
+  DataNascimento DATE
+)
+
+CREATE TABLE Atendimento
+(
+  IdAtendimento INT PRIMARY KEY IDENTITY,
+  IdVeterinario INT FOREIGN KEY REFERENCES Veterinario (IdVeterinario),
+  IdPet INT FOREIGN KEY REFERENCES Pet (IdPet),
+  Descricao VARCHAR (100),
+  DataAtendimento DATE
+)
