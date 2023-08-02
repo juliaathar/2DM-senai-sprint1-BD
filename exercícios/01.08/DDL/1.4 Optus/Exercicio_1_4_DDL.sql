@@ -1,0 +1,39 @@
+CREATE DATABASE Exercicio_1_4
+
+CREATE TABLE Artista
+(
+  IdArtista INT PRIMARY KEY IDENTITY,
+  Nome VARCHAR (50) NOT NULL
+)
+
+CREATE TABLE Estilo
+(
+  IdEstilo INT PRIMARY KEY IDENTITY,
+  Nome VARCHAR(50) NOT NULL
+)
+
+CREATE TABLE Usuario
+(
+  IdUsuario INT PRIMARY KEY IDENTITY,
+  Nome VARCHAR(50) NOT NULL,
+  Email VARCHAR (50) NOT NULL,
+  Senha VARCHAR (20) NOT NULL,
+  Permissao VARCHAR(15) NOT NULL
+)
+
+CREATE TABLE Album
+(
+  IdAlbum INT PRIMARY KEY IDENTITY,
+  IdArtista INT FOREIGN KEY REFERENCES Artista (IdArtista),
+  TiTulo VARCHAR (20) NOT NULL,
+  DataLancamento DATE NOT NULL,
+  Localizacao VARCHAR (30),
+  QtdMinutos TIME,
+  Ativo VARCHAR(15) NOT NULL
+)
+
+CREATE TABLE AlbumEstilo
+(
+  IdAlbum INT FOREIGN KEY REFERENCES Album (IdAlbum),
+  IdEstilo INT FOREIGN KEY REFERENCES Estilo (IdEstilo)
+)
