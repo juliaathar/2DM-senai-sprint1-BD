@@ -13,6 +13,6 @@ SELECT
 FROM
    Aluguel
 LEFT JOIN 
-   Modelo ON Aluguel.IdVeiculo = Modelo.Nome
+   Modelo ON Aluguel.IdVeiculo = Modelo.IdModelo
 LEFT JOIN 
-   Cliente ON Aluguel.IdCliente = Cliente.Nome
+   Cliente ON Aluguel.IdCliente = Cliente.IdCliente
