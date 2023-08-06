@@ -14,7 +14,7 @@ INSERT INTO Veterinario (IdClinica, Nome, CRMV)
 VALUES (1, 'Raphaela', '56789')
 
 INSERT INTO Pet (IdTipoPet, IdRaca, IdDono, Nome, DataNascimento)
-VALUES (2, 3, 2, 'Bastet', '28-09-2023')
+VALUES (1, 1, 1, 'Bastet', '28-09-2023')
 
 INSERT INTO Atendimento(IdVeterinario, IdPet, Descricao, DataAtendimento)
-VALUES (2, 2, 'Vacina', '02-02-2023')
+VALUES (1, 1, 'Vacina', '02-02-2023')
